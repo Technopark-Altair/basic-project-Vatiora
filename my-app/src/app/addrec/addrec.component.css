@@ -1,0 +1,25 @@
+.glav
+{
+    display: block;
+    text-align: center;
+    margin: 200px 400px 0 400px;
+}
+h1
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+.iskl
+{
+    margin-top: 50px;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    font-family: 'Play', sans-serif;
+}
+a:hover
+{
+    color: rgb(0, 126, 175);
+}

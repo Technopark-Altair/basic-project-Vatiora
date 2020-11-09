@@ -1,0 +1,56 @@
+h1
+{
+    display: block;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.recipe
+{
+    display: block;
+    width: 500px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 3px;
+    float: left;
+    margin-right: 60px;
+}
+.recipe:hover
+{
+    border-color: rgb(107, 107, 107);
+    border-width: 3px;
+    background: rgb(54, 54, 54);
+    color: white;
+}
+.img
+{
+    display: inline-block;
+}
+p
+{
+    margin: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2;
+    line-height: 20px;
+}
+.m
+{
+    display: block;
+    text-align: center;
+}
+#right
+{
+    display: block;
+    float: right;
+    margin: 0;
+}
+.first
+{
+    display: block;
+    width: 100%;
+    height: 720px;
+    margin: 0 auto 0 auto;
+    margin-bottom: 100px;
+}
+.second
+{
+    display: block;
+}
