@@ -1,0 +1,17 @@
+<header>
+    <h2 id="top">Здесь вы можете предложить ваш рецепт. </h2>
+    <h2 id="bottom">После проверки мы обязательно загрузим его на сайт!</h2>
+</header>
+<div>
+    <div class="add">
+        <app-addrec (addNewRec)="addingNewRec($event)"></app-addrec>
+    </div>
+    <div class="list">
+        <header>
+            <h2>Рецепты:</h2>
+        </header>
+        <div *ngFor="let recipe of recipes">
+            <app-recipe [recInput]="recipe"></app-recipe>
+        </div>
+    </div>
+</div>
